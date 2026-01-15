@@ -145,11 +145,5 @@ A aplicação está pronta para deploy em plataformas como **Render**, **Railway
 
 Este projeto foi desenvolvido para fins de avaliação técnica.
 
-**Autor:** [Seu Nome Aqui]
+**Autor:** João Pedro de Assunção Rego
 
-```
-
-### Dica Profissional:
-Lembre-se de substituir `[SEU_USUARIO]` no link do clone e `[Seu Nome Aqui]` no final. Esse README mostra que você se preocupa com a **Developer Experience (DX)**, ou seja, facilita a vida de quem vai corrigir seu teste.
-
-```
