@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificador de Emails - Desafio Técnico</title>
+    
+    <link rel="stylesheet" href="assets/css/style.css"> 
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Analisador de Emails</h1>
+            <p class="subtitle">Faça upload ou cole o texto para categorizar</p>
+        </header>
+
+        <form id="uploadForm">
+            
+            <div class="tabs-container">
+                <button type="button" class="tab-btn active" data-target="tab-file">
+                    📁 Arquivo
+                </button>
+                <button type="button" class="tab-btn" data-target="tab-text">
+                    ✍️ Texto
+                </button>
+            </div>
+
+            <div id="tab-file" class="tab-content active">
+                <div class="form-group">
+                    <label>Upload de Arquivo (.txt ou .pdf)</label>
+                    <div class="file-upload-wrapper">
+                        <input type="file" id="fileInput" name="file" accept=".txt,.pdf">
+                        <div class="file-label-text" id="fileLabelText">
+                            Clique ou arraste o arquivo aqui
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-text" class="tab-content">
+                <div class="form-group">
+                    <label for="emailText">Inserção Direta de Texto</label>
+                    <textarea id="emailText" name="emailText" placeholder="Cole o conteúdo do email aqui..."></textarea>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-submit">Processar Email</button>
+        </form>
+
+        <div id="result-area">
+            <h3>Resultado da Análise</h3>
+            
+            <div class="result-card">
+                <p><strong>Categoria:</strong></p>
+                <span id="resultCategory" class="category-badge">...</span>
+                
+                <p style="margin-top: 1rem;"><strong>Resposta Sugerida:</strong></p>
+                <div id="resultResponse" class="response-box">...</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
