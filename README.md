@@ -1,8 +1,4 @@
-Aqui está um **README.md** profissional, estruturado e pronto para ser copiado para o seu repositório. Ele cobre desde a instalação até a explicação técnica da arquitetura, o que conta muitos pontos na avaliação.
-
-Crie um arquivo chamado `README.md` na raiz do seu projeto e cole o seguinte conteúdo:
-
-```markdown
+```
 # 📧 Classificador Inteligente de Emails (AutoU Challenge)
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
